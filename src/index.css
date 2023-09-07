@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply m-0 p-0 box-border bg-white text-black font-regular
+    }
+}
+
+@layer components {
+    .center-mode {
+        @apply flex items-center justify-center
+    }
+}
+
+@font-face {
+    font-family: "MavenPro-Black";
+    src: url("./font/MavenPro-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MavenPro-ExtraBold";
+    src: url("./font/MavenPro-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MavenPro-Bold";
+    src: url("./font/MavenPro-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MavenPro-SemiBold";
+    src: url("./font/MavenPro-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MavenPro-Medium";
+    src: url("./font/MavenPro-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MavenPro-Regular";
+    src: url("./font/MavenPro-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
