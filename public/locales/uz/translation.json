@@ -1,3 +1,9 @@
 {
-    "hello": "Salom"
+    "navbar": {
+        "link": {
+            "main": "Asosiy",
+            "course": "Kurslar",
+            "connection": "Bog'lanish"
+        }
+    }
 }
