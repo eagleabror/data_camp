@@ -14,6 +14,7 @@ const Section = () => {
             </div>
             <div className="box flex justify-center">
                 <img src={sectionImg} alt="" />
+                adaf
             </div>
         </div>
     </div>
